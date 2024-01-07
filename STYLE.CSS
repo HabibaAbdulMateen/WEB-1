@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    height: 600px;
+    width: 1350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#inner{
+    height: 500px;
+    width: 100%;
+    background-image: url(andre-furtado-JtV6zyOZSrA-unsplash.jpg);
+    background-size: cover;
+}
+#heading{
+    height: 120px;
+    width: 250px;
+    border: 3px solid beige;
+    background-color: transparent;
+    margin-top: 275px;
+    margin-left: 520px;
+h1{
+    color: beige;
+    text-align: center;
+    margin: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+}
+#nevbar{
+    height: 60px;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 100px;
+a{
+    color: black;
+    text-decoration: none;
+    margin: 50px;
+}
+}
+#parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#CHILD{
+    height: 400px;
+    width: 1250px;
+}
+img{
+    height: 400px;
+    width: 1250px;
+    margin-top: 50px;
+}
